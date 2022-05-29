@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: #fafafa;
+}
+.container{
+    width: 70%;
+    height: 80vh;
+    margin: 40px 180px;
+    position: relative;
+}
+img{
+    position: absolute;
+    top: 30px;
+    height: 650px;
+}
+.access{
+    background-color: #fff;
+    width: 350px;
+    height: 420px;
+    border: 1px solid rgb(216, 213, 213);
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.logo{
+    width: auto;
+    height: fit-content;
+}
+.logo2{
+    width: 15px;
+    height: 15px;
+    margin-top: 84%;
+    margin-left: -172px;
+}
+input
+{
+    display: flex;
+    flex-flow: column;  
+    width: 265px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgb(223, 219, 219) ;
+    background: rgba(236, 234, 234, 0.2);
+    font-size: 12px ;
+    font-weight: 50;
+    padding-left: 10px;
+    letter-spacing: 0.3px;
+}
+input:hover{
+    color: black;
+    outline: none;
+    background: rgba(236, 234, 234, 0.4);
+}
+.input{
+    margin-top: 30px;
+}
+.button{
+    height: 30px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    background: rgba(118, 194, 224,0.6);
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgba(24, 151, 201, 0.6);
+    color: white;
+}
+span{
+    font-size: 16px;
+    margin-left: -10px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(134, 133, 133);
+}
+.text{
+    padding-top: 20px;
+    margin-top: 3px;
+    color: rgba(63, 63, 141, 0.9);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.forgot
+{
+    position: absolute;
+    bottom: 35px;
+    left: 25%;
+    text-decoration: none;
+    color: rgba(18, 18, 172, 0.9);
+}
+.forgot:hover{
+    color: rgba(9, 9, 138, 0.9);
+}
+.signup{
+    width: 350px;
+    height: 50px;
+    border: 1px solid gray;
+    margin-top: 30px;
+    position: absolute;
+    top: 440px;
+    right: 80px;
+    margin-top: 40px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(216, 213, 213);
+
+}
+.signup h5{
+    font-size: 15px;
+    font-weight: 540;
+}
+.signup a{
+    color:rgba(18, 18, 172, 0.5) ;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.5s ease;
+}
+.signup a:hover{
+    color: rgba(18, 18, 172, 0.8);
+    border-bottom: 1px solid rgba(18, 18, 172, 0.5);
+}
+h6{
+    position: absolute;
+    top: 104%;
+    right: 25%;
+    font-size: 14px;
+}
+.apple{
+    width: 120px;
+    height: 40px;
+    position: relative;
+    left: 58%;
+    top: 111%;
+    cursor: pointer;
+}
+.google{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    right: 15%;
+    top: 111%;
+    cursor: pointer;
+}
